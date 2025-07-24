@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    background-color: rgba(245, 248, 255, 1);
+    font-family: "Noto Serif", "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+
+
+}
+
+
+
+
+header{
+    max-width: 80%;
+    margin: 0 auto;
+
+}
+
+.nav-ber-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-ber-area .logo{
+    max-width: 135px;
+    max-height: 82px;
+}
+
+a ,p ,h3{
+    color:rgba(0, 0, 0, 0.5) ;
+    font-size: 16px;
+}
+.nav-list{
+    display: flex;
+    gap: 48px;
+}
+
+.nav-list a{
+font-family: "Inter", serif;
+}
+
+.nav-list :nth-child {
+    color: #252432;
+}
