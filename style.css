@@ -15,11 +15,22 @@
 
 }
 
+.sacond-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal
+}
+
+/* universer-css */
+span{
+    color: #E95A08;
+}
 
 
 
 header{
-    max-width: 80%;
+    max-width: 1140px;
     margin: 0 auto;
 
 }
@@ -49,6 +60,97 @@ a ,p ,h3{
 font-family: "Inter", serif;
 }
 
-.nav-list :nth-child {
+.home {
     color: #252432;
+    font-weight: bold;
+}
+
+.cart{
+    color: #252432;
+}
+
+/* nav ber design end */
+/* banner-area-design-start */
+
+.banner-area{
+    display: grid;
+    /* grid-template-columns:repeat(2,1fr); */
+    align-items: end;
+    display: flex;
+    
+    margin: 120px 0;
+}
+.baner-area-left{
+    max-width: 50%;
+}
+.banner-area-right{
+    max-width: 50%;
+}
+
+.baner-area-left h1{
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+/* banner-area-end */
+/* main-area-start */
+.main-area-1st-part{
+    text-align: center;
+}
+
+
+.mean-area-title{
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 16px;
+}
+
+.box-title{
+    font-weight: 500;
+    color: #252432;
+    font-size: 22px;
+}
+
+.box-subtitle{
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.box-button{
+    background-color:#E95A08 ;
+    color: white;
+    padding:19px 80px ;
+    border: none;
+}
+.box-area{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 16px;
+}
+
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+.mean-area-subtitle{
+    margin-bottom: 45px;
+}
+
+
+@media screen and (max-width:576px) {
+    .banner-area{
+     flex-direction: column-reverse;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+    
+
+    }
+    
+    
+    
+    
 }
