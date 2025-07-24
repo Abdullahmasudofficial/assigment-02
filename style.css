@@ -140,6 +140,155 @@ main{
 }
 
 
+/* mean-area-sacond part start */
+
+.div-for-area-badge{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.mean-area-sacond-part{
+    margin-top: 200px;
+}
+.sacond-part-drescription h1{
+    font-weight: bold;
+    font-size: 3rem;
+    margin-top: 0;
+}
+
+.sacond-part-drescription p{
+    font-size: 1.25rem;
+}
+
+.mean-area-2nd-part{
+    max-width: 45%;
+}
+.sacond-part-drescription{
+    max-width: 45%;
+}
+
+.bg-img{
+    position: relative;
+}
+.budge-img{
+    width: 286px;
+    position: absolute;
+    top:-110px;
+    right: -150px;
+    background: transparent;
+    
+}
+
+
+/* 2nd-area-start */
+.latest-deal-area{
+  text-align: center;
+  margin-top: 100px;
+
+}
+.latest-deal-area h1{
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0;
+
+}
+
+.latest-deal-area p{
+    margin-bottom: 80px;
+}
+
+
+.sub-class h1{
+    background: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.img-box-1{
+    
+    background:linear-gradient(rgba(0, 0, 0, 0.44)), url(./assets/deal-bloom.png);
+    background-repeat: no-repeat;
+    display: flex;
+    width: 100%;
+    height: 201px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    grid-area: img-box-1;
+    background-size: cover;
+   
+}
+
+
+.img-box-2{
+    
+    background:linear-gradient(rgba(0, 0, 0, 0.44)), url(./assets/deal-ana.png);
+    background-repeat: no-repeat;
+    display: flex;
+   width: 100%;
+   height: 201px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    grid-area:img-box-2 ;
+    background-size: cover;
+   
+   
+}
+
+.img-box-3{
+    
+    background:linear-gradient(rgba(0, 0, 0, 0.44)), url(./assets/deal-zabo.png);
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    display: flex;
+    width: 100%;
+    height: 435px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    grid-area:img-box-3 ;
+    background-size: cover;
+    font-size: 40px;
+    margin-left: 15px;
+    
+
+   
+}
+.img-box-3 h1{
+    font-size: 2.5rem;
+}
+.img-box-3 a{
+    font-size: 1.75rem;
+}
+
+.sub-class a{
+    text-decoration: underline;
+    background: none;
+    color: whitesmoke;
+    
+}
+
+.latest-deal-img{
+    display: grid;
+    grid-template-areas:
+    "img-box-1 img-box-3 img-box-3 "
+    "img-box-2 img-box-3 img-box-3  "
+    
+    
+    ;
+    gap: 20px;
+}
+
+/* mean area css end */
+
 @media screen and (max-width:576px) {
     .banner-area{
      flex-direction: column-reverse;
