@@ -337,7 +337,31 @@ main{
 form input{
     padding-left: 0;
 }
+.footer-area-2nd-part{
+    max-width: 1140px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
 
+.footer-drescription{
+    max-width: 359px;
+}
+
+.footer-nav-01 , .footer-nav-02{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.social-media-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    column-gap: 15px;
+
+}
 @media screen and (max-width:576px) {
     .banner-area{
      flex-direction: column-reverse;
