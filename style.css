@@ -42,6 +42,8 @@ header{
     
 }
 
+
+
 .nav-ber-area .logo{
     max-width: 135px;
     max-height: 82px;
@@ -56,6 +58,12 @@ a ,p ,h3{
     gap: 48px;
 }
 
+.nav-ber{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 .nav-list a{
 font-family: "Inter", serif;
 }
@@ -74,6 +82,7 @@ font-family: "Inter", serif;
 
 .cart{
     color: #252432;
+    margin-left: 10px;
 }
 
 /* nav ber design end */
@@ -386,13 +395,19 @@ form input{
     height: 38px;
    }
    
+
+   .nav-ber-area{
+    display: flex;
+    justify-content: space-around;
+   }
     .nav-list{
         display: none;
 
     }
     
     .cart{
-       display: inline;
+        visibility: visible;
+        padding-left: -15px;
 
     }
     
