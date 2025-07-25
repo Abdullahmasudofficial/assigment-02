@@ -362,17 +362,246 @@ form input{
     column-gap: 15px;
 
 }
+
+
+
+
 @media screen and (max-width:576px) {
-    .banner-area{
-     flex-direction: column-reverse;
-     justify-content: center;
-     align-items: center;
-     text-align: center;
-    
+    /* nav-area-responsiv start */
+   header{
+    margin: 15px auto;
+     width: 90%;
+   }
+   
+   .logo{
+    width: 63px;
+    height: 38px;
+   }
+   
+    .nav-list{
+        visibility: hidden;
 
     }
     
+    .cart{
+       visibility:visible ;
+
+    }
+    
+
+    /* banner-area-responsiv  */
+    
+    .banner-area{
+     flex-direction: column-reverse;
+     /* justify-content: center; */
+     align-items: start;
+     text-align: start;
+     margin: 75px auto;
+     width: 100%;
+    
+
+    }
+    .banner-area-right{
+        max-width: 100%;
+
+    }
+    .baner-area-left{
+        max-width: 100%;
+    }
+
+    .banner-area-right img{
+      width: 450px;
+      height: 245px;
+      margin: 0;
+     }
+    .baner-area-left h1{
+        font-size: 24px;
+        font-weight: 800;
+    }
+
+     /* banner-area-responsiv end  */
+     /* <!-- our plants area responsive start --> */
+
+     .main-area-1st-part{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+     }
+
+
+     .mean-area-title{
+        font-size: 24px;
+        font-weight: 800;
+
+     }
+
+     .mean-area-subtitle{
+        width: 336px;
+     }
+    .box-area{
+        grid-template-columns: repeat(2,1fr);
+
+    }
+    .box-button{
+        padding: 19px 30px;
+    }
+    .box img{
+        width: 171px;
+        height: 196px;
+    }
+
+    /* <!-- Flower & Plants Lover area responsive start --> */
+   .budge-img{
+    display: none;
+   }
+   .sacond-area-img{
+   width:100%;
+   height: 396px;
+   }
+   .div-for-area-badge{
+    flex-direction: column;
+   }
+ .mean-area-sacond-part{
+    margin-top: 50px;
+}
+.sacond-part-drescription h1{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.sacond-part-drescription p{
+    font-size:14px;
+}
+
+.mean-area-2nd-part{
+    max-width: 80%;
+}
+.sacond-part-drescription{
+    max-width: 80%;
+}
+
+/* <!------- Latest  Deals area responsive start --------> */
+.latest-deal-area h1{
+ font-size: 1.5rem;
+ font-weight: 900;
+}
+.latest-deal-area p{
+font-size: 14px;
+width: 336px;
+}
+
+.latest-deal-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.latest-deal-img{
+    display: grid;
+    margin: 0;
+    padding: 0;
+    grid-template-areas:
+    "img-box-1  "
+    "img-box-2  "
+    "img-box-3  ";
+    gap: 10px;
+
+}
+.img-box-2,
+.img-box-1,
+.img-box-3{
+margin: 0;
+padding: 0;
+width: 367px;
+
+}
+.img-box-3{
+    height: 201px;
+    margin-bottom:50px ;
+}
+.latest-deal-area p{
+    margin-bottom: 10px;
+
+
+}
+
+/* <!-- Join the colorful Bunch area responsiv start --> */
+
+   .colorful-brunch{
     
     
+    max-width: 576px;
+    height: 275px;
+   }
+
+   .footer-content{
+    width: 393px;
+    height: 275px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: none;
+   
+
+   }
+
+   .footer-content h1 {
+    background: none;
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
+
+
+   }
     
+
+#footer-search-bar{
+    padding: 12px 30px;
+    margin-right: 0;
+    border: none;
+    text-align: left;
+    
+}
+
+#submit-btn{
+    background-color: #E95A08;
+    border: none;
+    padding: 12px 30px;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+   
+}
+
+
+form input{
+    padding-left: 0;
+
+    
+    
+}
+form{
+background: transparent;
+
+}
+
+/* footer-area-2nd-part-responsive-css */
+.footer-area-2nd-part{
+   max-width: 576px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 32px;
+    margin: 030px 20px;
+}
+
 }
