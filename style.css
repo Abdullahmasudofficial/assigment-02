@@ -419,7 +419,7 @@ form input{
         display: block;
         justify-content: center;
         align-items: center;
-        /* overflow: hidden; */
+        overflow: hidden;
     }
 
 
