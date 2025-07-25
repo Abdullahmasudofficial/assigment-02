@@ -15,6 +15,11 @@
 
 }
 
+input{
+    border: none;
+    border-style: none;
+}
+
 .sacond-font{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -325,6 +330,8 @@ main{
 
    }
 
+
+
    .footer-content h1 {
     background: none;
     font-size: 3rem;
@@ -338,7 +345,12 @@ main{
 #footer-search-bar{
     padding-right: 200px;
     padding-left: 15px;
+    padding-bottom:15px ;
+    padding-top: 15px;
+    background-color: aliceblue;
+    background-color: #fff;
     border: none;
+    
     text-align: left;
     
 }
@@ -351,8 +363,11 @@ main{
     text-align: left;
 }
 
-form input{
+.form input{
     padding-left: 0;
+    outline: none;
+    border: #E95A08;
+
 }
 .footer-area-2nd-part{
     max-width: 1140px;
@@ -434,10 +449,14 @@ form input{
     
 
     }
-    .banner-area-right{
+    /* .banner-area-right{
+     background:url(./assets/hero-flower.png);
+     background-size: cover;
+     height: 400px;
 
+     width: 300px;
 
-    }
+    } */
     .baner-area-left{
         max-width: 100%;
     }
@@ -446,6 +465,7 @@ form input{
       width: 393px;
       height: 245px;
       margin: 0;
+    
      }
     .baner-area-left h1{
         font-size: 24px;
