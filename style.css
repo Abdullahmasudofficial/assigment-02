@@ -59,6 +59,13 @@ a ,p ,h3{
 .nav-list a{
 font-family: "Inter", serif;
 }
+/* .nav-list a:hover{
+    background-color: #252432;
+    color: #fff;
+    transition: 0.5s;
+     box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+
+} */
 
 .home {
     color: #252432;
@@ -121,6 +128,7 @@ font-family: "Inter", serif;
     color: white;
     padding:19px 80px ;
     border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 .box-area{
     display: grid;
@@ -390,13 +398,19 @@ form input{
     
 
     /* banner-area-responsiv  */
-    
+    main,footer,header{
+       
+        margin: 0 auto;
+    }
+
+
+
     .banner-area{
      flex-direction: column-reverse;
      /* justify-content: center; */
      align-items: start;
      text-align: start;
-     margin: 75px auto;
+     margin: 0px auto;
      width: 100%;
     
 
@@ -428,6 +442,7 @@ form input{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 0px;
 
      }
 
@@ -435,6 +450,7 @@ form input{
      .mean-area-title{
         font-size: 24px;
         font-weight: 800;
+        margin: 0;
 
      }
 
@@ -447,6 +463,14 @@ form input{
     }
     .box-button{
         padding: 19px 30px;
+    }
+
+    .box-button:hover{
+     background-color: #252432;
+     color: #fff;
+     transition: 0.5s;
+     font-weight: 800;
+     border-radius: 7px;
     }
     .box img{
         width: 171px;
@@ -465,7 +489,7 @@ form input{
     flex-direction: column;
    }
  .mean-area-sacond-part{
-    margin-top: 50px;
+    margin-top: 0px;
 }
 .sacond-part-drescription h1{
     font-weight: bold;
