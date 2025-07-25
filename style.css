@@ -89,10 +89,10 @@ font-family: "Inter", serif;
 /* banner-area-design-start */
 
 .banner-area{
-    display: grid;
-    /* grid-template-columns:repeat(2,1fr); */
-    align-items: end;
     display: flex;
+    align-items: center;
+    width: 100%;
+    
     
     margin: 120px 0;
 }
@@ -435,7 +435,7 @@ form input{
 
     }
     .banner-area-right{
-        max-width: 100%;
+
 
     }
     .baner-area-left{
@@ -461,7 +461,7 @@ form input{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 0px;
+        margin-top: 70px;
 
      }
 
@@ -606,7 +606,7 @@ width: 367px;
     
 
 #footer-search-bar{
-    padding: 12px 30px;
+    padding: 12px 20px;
     margin-right: 0;
     border: none;
     text-align: left;
@@ -616,23 +616,17 @@ width: 367px;
 #submit-btn{
     background-color: #E95A08;
     border: none;
-    padding: 12px 30px;
+    padding: 12px 50px;
     color: #fff;
     margin: 0;
     text-align: center;
+    
    
 }
 
 
-form input{
-    padding-left: 0;
-
-    
-    
-}
-form{
-background: transparent;
-
+.form{
+    display: flex;
 }
 
 /* footer-area-2nd-part-responsive-css */
