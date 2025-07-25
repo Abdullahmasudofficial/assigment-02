@@ -419,7 +419,7 @@ form input{
         display: block;
         justify-content: center;
         align-items: center;
-        overflow: hidden;
+        /* overflow: hidden; */
     }
 
 
@@ -508,7 +508,7 @@ form input{
     flex-direction: column;
    }
  .mean-area-sacond-part{
-    margin-top: 0px;
+    margin-top: 50px;
 }
 .sacond-part-drescription h1{
     font-weight: bold;
