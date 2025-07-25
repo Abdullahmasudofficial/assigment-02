@@ -387,12 +387,12 @@ form input{
    }
    
     .nav-list{
-        visibility: hidden;
+        display: none;
 
     }
     
     .cart{
-       visibility:visible ;
+       display: inline;
 
     }
     
@@ -401,6 +401,10 @@ form input{
     main,footer,header{
        
         margin: 0 auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
     }
 
 
@@ -424,7 +428,7 @@ form input{
     }
 
     .banner-area-right img{
-      width: 450px;
+      width: 393px;
       height: 245px;
       margin: 0;
      }
